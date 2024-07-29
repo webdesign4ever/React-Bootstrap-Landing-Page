@@ -49,98 +49,32 @@
 }
 
 .btn-signup {
-  /* Button */
-
-  /* Auto layout */
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 20px;
-  gap: 10px;*/
-
   width: 91px;
   height: 40px;
-
-  /* Brand/Primary */
   background: #4caf4f;
   border-radius: 6px;
-
-  /* Inside auto layout */
-  /* flex: none;
-  order: 1;
-  flex-grow: 0; */
 }
 
 .btn-login {
-  /* Button */
-
-  /* Auto layout */
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 20px;
-  gap: 10px;*/
-
   width: 77px;
   height: 40px;
-
-  /* Neutral/Silver */
   background: #f5f7fa;
   color: #4caf4f;
   border-radius: 6px;
-
-  /* Inside auto layout */
-  /* flex: none;
-  order: 0;
-  flex-grow: 0; */
 }
 
 .btn-register {
-  /* Button */
-
-  /* Auto layout */
-  /* display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 14px 32px;
-gap: 10px; */
-
   width: 128px;
   height: 52px;
-
-  /* Brand/Primary */
   background: #4caf4f;
   border-radius: 4px;
-
-  /* Inside auto layout */
-  /* flex: none;
-order: 1;
-flex-grow: 0; */
 }
 
 .btn-learn {
-  /* Button */
-
-  /* Auto layout */
-  /* display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 14px 32px;
-gap: 10px; */
-
   width: 151px;
   height: 52px;
-
-  /* Brand/Primary */
   background: #4caf4f;
   border-radius: 4px;
-
-  /* Inside auto layout */
-  /* flex: none;
-order: 1;
-flex-grow: 0; */
 }
 
 .btn-demo {
