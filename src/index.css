@@ -1,0 +1,200 @@
+.bg-main {
+  background-color: #f5f7fa;
+}
+
+.bg-footer {
+  background-color: #263238;
+}
+
+.silver {
+  color: #f5f7fa;
+}
+
+.green {
+  color: #4caf4f;
+}
+
+.d-grey {
+  color: #4d4d4d;
+}
+
+.l-grey {
+  color: #89939e;
+}
+
+.grey {
+  color: #717171;
+}
+
+.dark {
+  color: #18191f;
+}
+
+.black {
+  color: #263238;
+}
+
+.navbar ul li a {
+  color: #18191f !important;
+}
+
+.custom-card {
+  /* width: 317px;
+  height: 176px; */
+  box-shadow: 0px 8px 16px 0px #abbed166;
+}
+
+.custom-card h4 {
+  font-size: 20px;
+}
+
+.btn-signup {
+  /* Button */
+
+  /* Auto layout */
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;*/
+
+  width: 91px;
+  height: 40px;
+
+  /* Brand/Primary */
+  background: #4caf4f;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  /* flex: none;
+  order: 1;
+  flex-grow: 0; */
+}
+
+.btn-login {
+  /* Button */
+
+  /* Auto layout */
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;*/
+
+  width: 77px;
+  height: 40px;
+
+  /* Neutral/Silver */
+  background: #f5f7fa;
+  color: #4caf4f;
+  border-radius: 6px;
+
+  /* Inside auto layout */
+  /* flex: none;
+  order: 0;
+  flex-grow: 0; */
+}
+
+.btn-register {
+  /* Button */
+
+  /* Auto layout */
+  /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px;
+gap: 10px; */
+
+  width: 128px;
+  height: 52px;
+
+  /* Brand/Primary */
+  background: #4caf4f;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  /* flex: none;
+order: 1;
+flex-grow: 0; */
+}
+
+.btn-learn {
+  /* Button */
+
+  /* Auto layout */
+  /* display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 32px;
+gap: 10px; */
+
+  width: 151px;
+  height: 52px;
+
+  /* Brand/Primary */
+  background: #4caf4f;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  /* flex: none;
+order: 1;
+flex-grow: 0; */
+}
+
+.btn-demo {
+  width: 178px;
+  height: 52px;
+  background: #4caf4f;
+  border-radius: 4px;
+}
+
+.input-email {
+  /* width: 255px;*/
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background: #595a5e;
+  border-radius: 8px;
+  padding-right: 2.5rem;
+}
+
+::placeholder,
+.text-silver {
+  color: #d9dbe1;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .custom-lg-3 {
+    flex: 0 0 auto;
+    width: 30%;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-lg-3 {
+    margin: 4rem 0;
+
+    width: 18rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-card h4 {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50% !important;
+  }
+}
