@@ -38,6 +38,10 @@
   color: #18191f !important;
 }
 
+.navbar ul li a:hover {
+  color: #4caf4f !important;
+}
+
 .custom-card {
   /* width: 317px;
   height: 176px; */

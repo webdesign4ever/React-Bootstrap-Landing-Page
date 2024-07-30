@@ -1,16 +1,10 @@
+import { Routes, Route } from "react-router-dom"
+
 import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Clients from "./components/Clients"
-import Community from "./components/Community"
-import Unlock from "./components/Unlock"
-import Achievements from "./components/Achievements"
-import Calender from "./components/Calender"
-import Customer from "./components/Customer"
-import Updates from "./components/Updates"
-import Footer from "./components/Footer"
-
-
-
+import Home from "./Pages/Home"
+import About from "./Pages/About"
+import Services from "./Pages/Services"
+import Contact from "./Pages/Contact"
 
 
 
@@ -20,15 +14,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Clients />
-      <Community />
-      <Unlock />
-      <Achievements />
-      <Calender />
-      <Customer />
-      <Updates />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
     </>
   )
 }
